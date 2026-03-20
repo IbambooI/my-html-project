@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Honesty Opinion</title>
+</head>
+
+<body>
+
+<header>
+<h1 id="title">Tell it like it is.</h1>
+<p id="description">Tell us about you.</p>
+</header>
+
+<main>
+
+<form id="survey-form">
+
+<fieldset>
+
+<label id="name-label" for="name">Name:</label>
+<input 
+id="name" 
+type="text" 
+name="name" 
+placeholder="e.g Bamboo" 
+required>
+
+<label id="email-label" for="email">Email:</label>
+<input 
+id="email" 
+type="email" 
+name="email" 
+placeholder="e.g Banks" 
+required>
+
+<label id="number-label" for="number">Age (Optional):</label>
+<input 
+id="number" 
+type="number" 
+name="number" 
+placeholder="55" 
+min="10" 
+max="100">
+
+</fieldset>
+
+<fieldset>
+<legend>How do you rate the food around you?</legend>
+
+<select id="dropdown" name="rate">
+<option value="">Select an option</option>
+<option value="great">Great</option>
+<option value="good">Good</option>
+<option value="okay">It's okay</option>
+<option value="not-best">Not the best</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>What sports do you like the most?</legend>
+
+<input id="football-option" type="radio" name="sports" value="football">
+<label for="football-option">Football</label>
+
+<input id="hockey-option" type="radio" name="sports" value="hockey">
+<label for="hockey-option">Hockey</label>
+
+<input id="soccer-option" type="radio" name="sports" value="soccer">
+<label for="soccer-option">Soccer</label>
+
+<input id="basketball-option" type="radio" name="sports" value="basketball">
+<label for="basketball-option">Basketball</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>How often do you like going out?</legend>
+
+<input type="checkbox" id="often" name="choice" value="often">
+<label for="often">Often</label>
+
+<input type="checkbox" id="here-and-there" name="choice" value="here-and-there" checked>
+<label for="here-and-there">Here and there</label>
+
+<input type="checkbox" id="not-at-all" name="choice" value="not-at-all">
+<label for="not-at-all">Not at all</label>
+
+</fieldset>
+<label for="suggestion">Any Suggestions?</label><br>
+<textarea id="suggestion" name="suggestion" cols="30" rows="10"></textarea>
+
+<br><br>
+
+<button id="submit" type="submit">Submit</button>
+
+</form>
+
+</main>
+
+</body>
+</html>
